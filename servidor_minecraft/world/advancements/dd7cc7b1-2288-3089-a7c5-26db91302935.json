@@ -1,31 +1,233 @@
 {
-  "slashblade:arts/combo_a": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "customtrigger": "2024-12-24 19:16:40 +0000"
+      "unlock_right_away": "2024-12-24 19:11:18 +0000"
     },
     "done": true
   },
-  "slashblade:arts/combo_b": {
+  "iceandfire:iceandfire/root": {
     "criteria": {
-      "customtrigger": "2024-12-24 19:17:31 +0000"
+      "tick": "2024-12-24 19:11:18 +0000"
     },
     "done": true
   },
-  "slashblade:arts/combo_c": {
+  "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "customtrigger": "2024-12-24 19:16:43 +0000"
+      "minecraft:wooded_badlands": "2024-12-24 19:13:14 +0000",
+      "minecraft:badlands": "2024-12-24 19:17:58 +0000",
+      "minecraft:river": "2024-12-29 01:01:24 +0000",
+      "minecraft:desert": "2024-12-24 19:11:20 +0000",
+      "minecraft:warm_ocean": "2024-12-24 19:25:57 +0000"
+    },
+    "done": false
+  },
+  "mutantmonsters:root": {
+    "criteria": {
+      "killed_something": "2024-12-24 19:16:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-12-24 19:19:01 +0000",
+      "minecraft:creeper": "2024-12-24 19:17:26 +0000",
+      "minecraft:husk": "2024-12-24 19:16:29 +0000",
+      "minecraft:zombie_villager": "2024-12-24 19:17:19 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-24 19:16:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:husk": "2024-12-24 19:16:29 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/creeper": {
+    "criteria": {
+      "has_gunpowder": "2024-12-24 19:17:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-12-24 19:17:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-12-24 19:17:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-12-24 19:19:02 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/skeleton": {
+    "criteria": {
+      "has_arrow": "2024-12-24 19:19:02 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wolf": {
+    "criteria": {
+      "has_bone": "2024-12-24 19:19:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-12-24 19:19:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-12-24 19:19:25 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/kangaroo": {
+    "criteria": {
+      "killed_by": "2024-12-24 19:20:34 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2024-12-24 19:20:47 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_ice_dragon": "2024-12-24 19:22:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-12-24 19:24:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-12-24 19:24:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-12-24 19:24:28 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/diving_armor": {
+    "criteria": {
+      "shirt": "2024-12-24 19:25:01 +0000",
+      "pants": "2024-12-24 19:25:02 +0000",
+      "helmet": "2024-12-24 19:25:01 +0000",
+      "boots": "2024-12-24 19:25:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-12-24 19:25:10 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/ride_submarine": {
+    "criteria": {
+      "ride_a_boat_with_a_goat": "2024-12-24 19:25:19 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed_by": "2024-12-24 19:28:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-24 19:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "baked_potato": "2024-12-24 19:30:27 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-24 19:31:34 +0000"
     },
     "done": true
   },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "mutantmonsters:root": {
-    "criteria": {
-      "killed_something": "2024-12-24 19:16:29 +0000"
     },
     "done": true
   },
@@ -41,24 +243,6 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/ride_submarine": {
-    "criteria": {
-      "ride_a_boat_with_a_goat": "2024-12-24 19:25:19 +0000"
-    },
-    "done": true
-  },
-  "slashblade:movesets": {
-    "criteria": {
-      "crafting": "2024-12-24 19:11:18 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/fox_black": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
@@ -71,12 +255,6 @@
     },
     "done": true
   },
-  "slashblade:material/proudsoul_tiny": {
-    "criteria": {
-      "BrokenBlade": "2024-12-24 19:14:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2024-12-24 19:31:35 +0000"
@@ -86,12 +264,6 @@
   "travelersbackpack:recipes/misc/backpack_tank": {
     "criteria": {
       "has_iron": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/emu": {
-    "criteria": {
-      "killed_by": "2024-12-24 19:20:47 +0000"
     },
     "done": true
   },
@@ -113,21 +285,9 @@
     },
     "done": true
   },
-  "slashblade:recipes/combat/slashblade_bamboo": {
-    "criteria": {
-      "has_slashblade_wood": "2024-12-24 19:16:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/rattlesnake": {
-    "criteria": {
-      "killed_by": "2024-12-24 19:28:19 +0000"
     },
     "done": true
   },
@@ -167,27 +327,9 @@
     },
     "done": true
   },
-  "slashblade:material/proudsoul": {
-    "criteria": {
-      "BrokenBlade": "2024-12-24 19:30:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/rodai_diamond": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/creeper": {
-    "criteria": {
-      "has_gunpowder": "2024-12-24 19:17:28 +0000"
     },
     "done": true
   },
@@ -197,27 +339,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_rabbit": {
-    "criteria": {
-      "has_rabbit": "2024-12-24 19:24:28 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/tagayasan": {
-    "criteria": {
-      "has_slashblade_wood": "2024-12-24 19:16:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/rodai_golden": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
     },
     "done": true
   },
@@ -227,45 +351,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2024-12-24 19:11:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2024-12-24 19:19:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
-    "criteria": {
-      "has_rabbit": "2024-12-24 19:24:28 +0000"
-    },
-    "done": true
-  },
-  "slashblade:abilities/enemy_step": {
-    "criteria": {
-      "customtrigger": "2024-12-24 19:17:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
-    "criteria": {
-      "has_rabbit": "2024-12-24 19:24:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
     },
     "done": true
   },
@@ -274,15 +362,6 @@
       "has_sand": "2024-12-24 19:31:35 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2024-12-24 19:19:01 +0000",
-      "minecraft:creeper": "2024-12-24 19:17:26 +0000",
-      "minecraft:husk": "2024-12-24 19:16:29 +0000",
-      "minecraft:zombie_villager": "2024-12-24 19:17:19 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
@@ -302,12 +381,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2024-12-24 19:19:02 +0000"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/misc/spider": {
     "criteria": {
       "has_string": "2024-12-24 19:31:35 +0000"
@@ -320,102 +393,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/orotiagito_sealed": {
-    "criteria": {
-      "has_proudsoul": "2024-12-24 19:16:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
     },
     "done": true
   },
-  "alexscaves:alexscaves/diving_armor": {
-    "criteria": {
-      "shirt": "2024-12-24 19:25:01 +0000",
-      "pants": "2024-12-24 19:25:02 +0000",
-      "helmet": "2024-12-24 19:25:01 +0000",
-      "boots": "2024-12-24 19:25:02 +0000"
-    },
-    "done": true
-  },
-  "immersive_weathering:recipes/iron_ingot": {
-    "criteria": {
-      "has_copper_block": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/kill_if_dragon": {
-    "criteria": {
-      "killed_ice_dragon": "2024-12-24 19:22:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2024-12-24 19:30:27 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/yuzukitukumo": {
-    "criteria": {
-      "has_slashblade": "2024-12-24 19:16:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
-    },
-    "done": true
-  },
-  "slashblade:arts/aerial_b": {
-    "criteria": {
-      "customtrigger": "2024-12-24 19:16:29 +0000"
-    },
-    "done": true
-  },
-  "slashblade:arts/aerial_a": {
-    "criteria": {
-      "customtrigger": "2024-12-24 19:17:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
-    },
-    "done": true
-  },
-  "slashblade:root": {
-    "criteria": {
-      "attackTheEntity": "2024-12-24 19:14:26 +0000"
-    },
-    "done": true
-  },
-  "immersive_weathering:recipes/sand": {
-    "criteria": {
-      "has_copper_block": "2024-12-24 19:31:35 +0000"
     },
     "done": true
   },
@@ -434,24 +420,6 @@
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:iceandfire/root": {
-    "criteria": {
-      "tick": "2024-12-24 19:11:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/slashblade_white": {
-    "criteria": {
-      "has_slashblade_wood": "2024-12-24 19:16:37 +0000"
     },
     "done": true
   },
@@ -485,12 +453,6 @@
     },
     "done": true
   },
-  "slashblade:recipes/combat/muramasa": {
-    "criteria": {
-      "has_slashblade": "2024-12-24 19:16:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-24 19:31:35 +0000"
@@ -500,12 +462,6 @@
   "travelersbackpack:recipes/misc/iron_tier_upgrade": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/rodai_wooden": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
     },
     "done": true
   },
@@ -521,12 +477,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/skeleton": {
-    "criteria": {
-      "has_arrow": "2024-12-24 19:19:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2024-12-24 19:31:35 +0000"
@@ -539,21 +489,9 @@
     },
     "done": true
   },
-  "slashblade:recipes/combat/rodai_netherite": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/fox_white": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
     },
     "done": true
   },
@@ -563,39 +501,9 @@
     },
     "done": true
   },
-  "slashblade:recipes/combat/rodai_iron": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
-    },
-    "done": true
-  },
-  "slashblade:blade/s_wood": {
-    "criteria": {
-      "crafting": "2024-12-24 19:16:37 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/wolf": {
-    "criteria": {
-      "has_bone": "2024-12-24 19:19:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2024-12-24 19:19:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-12-24 19:31:34 +0000"
     },
     "done": true
   },
@@ -605,21 +513,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-12-24 19:16:29 +0000"
     },
     "done": true
   },
@@ -659,57 +555,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:husk": "2024-12-24 19:16:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:wooded_badlands": "2024-12-24 19:13:14 +0000",
-      "minecraft:badlands": "2024-12-24 19:17:58 +0000",
-      "minecraft:desert": "2024-12-24 19:11:20 +0000",
-      "minecraft:warm_ocean": "2024-12-24 19:25:57 +0000"
-    },
-    "done": false
-  },
-  "slashblade:abilities/kick_jump": {
-    "criteria": {
-      "customtrigger": "2024-12-24 19:18:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2024-12-24 19:17:28 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/kangaroo": {
-    "criteria": {
-      "killed_by": "2024-12-24 19:20:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "baked_potato": "2024-12-24 19:30:27 +0000"
-    },
-    "done": false
-  },
-  "slashblade:recipes/combat/agito": {
-    "criteria": {
-      "has_proudsoul": "2024-12-24 19:16:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2024-12-24 19:17:28 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-24 19:31:35 +0000"
@@ -728,33 +573,9 @@
     },
     "done": true
   },
-  "slashblade:recipes/combat/rodai_stone": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
-    },
-    "done": true
-  },
-  "slashblade:recipes/combat/ruby": {
-    "criteria": {
-      "has_slashblade_silverbamboo": "2024-12-24 19:18:00 +0000"
-    },
-    "done": true
-  },
-  "slashblade:blade/s_silverbamboo": {
-    "criteria": {
-      "crafting": "2024-12-24 19:18:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2024-12-24 19:31:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
     },
     "done": true
   },
@@ -764,9 +585,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/misc/paper": {
     "criteria": {
-      "in_water": "2024-12-24 19:25:10 +0000"
+      "has_reeds": "2024-12-29 01:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-12-29 01:01:16 +0000"
     },
     "done": true
   },
